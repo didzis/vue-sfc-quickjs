@@ -1,0 +1,6 @@
+esbuild
+quickjs
+qjs
+node_modules/
+compiler-sfc.esm-browser.js
+vue-sfc-compiler-bundle.js

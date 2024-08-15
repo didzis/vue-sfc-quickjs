@@ -1,5 +1,5 @@
 
-// based one code from: https://github.com/vuejs/vue-loader
+// based on code from: https://github.com/vuejs/vue-loader
 
 // node
 // import { parse, compileScript, compileTemplate, compileStyle } from 'vue/compiler-sfc'
@@ -88,8 +88,6 @@ export function loadSFC(source, resourcePath, options = {}) {
 
   // script
 
-  // const scopeId = 'some-scope-id'
-  // const scopeId = `data-v-${id}`
   const isProd = isProduction
   const enableInline = options.enableInline || false
   const isServer = false

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 
-import { loadSFC } from './vue-sfc-compiler.js'
-// import { loadSFC } from './vue-sfc-compiler-bundle.js'
+// import { loadSFC } from './vue-sfc-compiler.js'
+import { loadSFC } from './vue-sfc-compiler-bundle.js'
 
 
 // load file with node.js

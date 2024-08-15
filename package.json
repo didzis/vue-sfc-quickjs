@@ -9,10 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vue/compiler-sfc": "^3.2.37",
-    "esbuild": "^0.17.3",
-    "hash-sum": "^2.0.0",
-    "vue": "^3.2.37"
+    "@vue/compiler-sfc": "^3.4",
+    "hash-sum": "^2.0.0"
   },
   "type": "module"
 }

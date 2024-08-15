@@ -24,8 +24,19 @@ const post = await fetch(`/api/post/1`).then((r) => r.json())
 </script>
 
 <style scoped>
-.greeting {
+body .greeting {
   color: red;
   font-weight: bold;
+}
+div {
+  color: yellow;
+}
+@media (max-width: 600px) {
+  button div {
+    color: yellow;
+  }
+  span.other[zo="4"] > .some {
+    background-color: blue;
+  }
 }
 </style>
